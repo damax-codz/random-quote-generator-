@@ -1,0 +1,38 @@
+#generate {
+    word-wrap: break-word;
+    width: 200px; 
+    display: flex;
+    text-align: center;  
+    font-size: 20px;
+    font-weight: bolder; 
+    
+}
+p#generate::first-letter{
+      font-size: 40px;
+      color: red;
+  }
+    .wrap{
+        width: 200px;
+        justify-content: center; 
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+  
+   .full{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   } 
+   button{
+       color: black;
+       border-color : black;
+       background-color:rgb(246, 246, 246) ;
+       border-radius: 4px;
+   }
+  #auth{
+      color: rgb(82, 80, 80);
+  }
+ 
